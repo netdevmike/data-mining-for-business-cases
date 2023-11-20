@@ -5,11 +5,11 @@ library(ggplot2)
 
 # Data Preprocessing
 # Load data
-current_customers <- read_csv("/Users/chararam/Documents/GitHub/data-mining-for-business-CSCI-E-96/cases/II National City Bank/training/CurrentCustomerMktgResults.csv")
-household_data <- read_csv("/Users/chararam/Documents/GitHub/data-mining-for-business-CSCI-E-96/cases/II National City Bank/training/householdAxiomData.csv")
-credit_data <- read_csv("/Users/chararam/Documents/GitHub/data-mining-for-business-CSCI-E-96/cases/II National City Bank/training/householdCreditData.csv")
-vehicle_data <- read_csv("/Users/chararam/Documents/GitHub/data-mining-for-business-CSCI-E-96/cases/II National City Bank/training/householdVehicleData.csv")
-prospective_customers <- read_csv("/Users/chararam/Documents/GitHub/data-mining-for-business-CSCI-E-96/cases/II National City Bank/ProspectiveCustomers.csv")
+current_customers <- read_csv("/cases/II_National_City_Bank/training/CurrentCustomerMktgResults.csv")
+household_data <- read_csv("/cases/II_National_City_Bank/training/householdAxiomData.csv")
+credit_data <- read_csv("/cases/II_National_City_Bank/training/householdCreditData.csv")
+vehicle_data <- read_csv("/cases/II_National_City_Bank/training/householdVehicleData.csv")
+prospective_customers <- read_csv("/cases/II_National_City_Bank/ProspectiveCustomers.csv")
 
 # Merge data
 full_training_data <- current_customers %>%
