@@ -1,5 +1,5 @@
 # Setting the working directory
-setwd("/Users/chararam/Documents/GitHub/data-mining-for-business-CSCI-E-96/cases/I_Ok_Cupid")
+setwd("/../I_Ok_Cupid")
 
 # Load necessary libraries
 library(ggplot2)
